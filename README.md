@@ -1,12 +1,19 @@
-Forked the original repo seen below and made it into a package to make it more pythonic
+Forked the original repo seen below from tomtalp and made it into a package to make it more pythonic
 
 
-**Note:** This project isn't maintained anymore, feel free to fork and keep it alive.
 
 # Djangorient
 
-An OrientDB backend for Django. 
+An OrientDB backend for Django
 Still in early development stages, feel free to join and help growing.
+
+## Installation
+
+1. $ git clone https://github.com/kdenny/Djangorient.git
+1. $ cd Djangorient
+1. $ python setup.py install
+
+
 
 ### settings.py
 ```
@@ -22,7 +29,7 @@ DJANGORIENT_SETTINGS = {
 ### Setting up models
 ```
 # models.py
-from djangorient.DjangorientModels import *
+from django_orientdb.models import *
 
 class Person(DjangorientNode):
 	name = String()

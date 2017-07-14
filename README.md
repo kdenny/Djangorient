@@ -1,3 +1,6 @@
+Forked the original repo seen below and made it into a package to make it more pythonic
+
+
 **Note:** This project isn't maintained anymore, feel free to fork and keep it alive.
 
 # Djangorient

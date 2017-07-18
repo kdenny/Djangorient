@@ -1,5 +1,5 @@
 from django.conf import settings
-from http import HttpClient
+from .http import HttpClient
 import json
 import urllib
 
@@ -153,7 +153,6 @@ class DjangorientClient(object):
 		r1 = self._http_client.send_request(uri, 'GET')
 		return r1
 
-	
 client = DjangorientClient()
 #print client
 #client.test_connection()

@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_orientdb/__init__.py
+django_orientdb/client.py
+django_orientdb/http.py
+django_orientdb/managers.py
+django_orientdb/model_properties.py
+django_orientdb/models.py
+django_orientdb/results_manager.py
+django_orientdb_api.egg-info/PKG-INFO
+django_orientdb_api.egg-info/SOURCES.txt
+django_orientdb_api.egg-info/dependency_links.txt
+django_orientdb_api.egg-info/top_level.txt

@@ -24,7 +24,21 @@ DJANGORIENT_SETTINGS = {
     'password': 'root',
     'name': 'TestDB',
 }
+
+
+INSTALLED_APPS = [
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    
+    ## Other installed apps
+    
+    'django_orientdb'
+    ]
+]
+
+
 ```
+
 
 ### Setting up models
 ```
